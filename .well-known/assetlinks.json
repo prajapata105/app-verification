@@ -1,11 +1,15 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "in.joyfultoys.app",
       "sha256_cert_fingerprints": [
-        "F2:36:C4:EF:84:30:CB:8B:FF:7D:2A:26:E8:1B:21:94:D7:F1:30:C6:20:A9:52:62:43:6C:71:A2:F3:51:40:5C"
+        "F2:36:C4:EF:84:30:CB:8B:FF:7D:2A:26:E8:1B:21:94:D7:F1:30:C6:20:A9:52:62:43:6C:71:A2:F3:51:40:5C",
+        "41:78:EF:58:BB:E5:03:5B:E4:5E:67:A3:46:F3:BD:78:C0:8C:31:F1:AC:35:40:5C:60:C5:9B:F2:EE:87:B0:2B"
       ]
     }
   }
